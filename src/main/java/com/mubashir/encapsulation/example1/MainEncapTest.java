@@ -10,7 +10,7 @@ public class MainEncapTest {
 		test.setName("Mu");
 		
 		System.out.println("name is " + test.getName()+" and Age is  " +test.getAge());
-	
+	// why getter and setter are private??
 	}
 
 }

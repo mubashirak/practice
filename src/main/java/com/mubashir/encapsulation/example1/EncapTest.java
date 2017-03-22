@@ -3,7 +3,7 @@ package com.mubashir.encapsulation.example1;
 public class EncapTest {
 
 	private String age;
-	private String name;
+	public  String name;
 
 	public String getAge(){
 		return age;
@@ -11,14 +11,13 @@ public class EncapTest {
 	public void setAge(String age){
 		this.age=age;
 	}
-	
-	public String getName(){
-		
+	public String getName() {
 		return name;
 	}
-	public void setName(String name){
-		this.name=name;
+	public void setName(String name) {
+		this.name = name;
 	}
+	
 	
 	
 }
