@@ -1,10 +1,10 @@
 package com.mubashir.exception.example2;
-
+/*
 public class SubClass extends ExceptionTest2{  
     public void start() throws Exception{
         throw new Exception("Not able to start");
     }
-}
+}*/
 // In this code compiler will complain on sub class where start() method gets
 // overridden. As per rules of method overriding in Java, an overridden method
 // can not throw Checked Exception which is higher in hierarchy than original
