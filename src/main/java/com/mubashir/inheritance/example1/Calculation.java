@@ -1,6 +1,6 @@
 package com.mubashir.inheritance.example1;
 
-class Calculation {
+public class Calculation {
 	
 	protected int z;
 	
