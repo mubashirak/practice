@@ -2,7 +2,7 @@ package com.mubashir.notes;
 
 public class Miscellaneous {
 	
-	/*
+	/**
 	 * 1.	NoClassDefFoundError is due to incorect classpath.
 	 * 
 	 * 2.	java.lang.Exception occurs when JVM tris to load a particular class and doesnt fint the same in classpath.
@@ -54,6 +54,7 @@ public class Miscellaneous {
 	 *   	finalize() method is called  by garbage collector, before that object is collected, but this is not guaranteed by Java specification.
 	 *    	finally keyword is the only one which is related to error and exception handling and you should always have finally block in production
 	 *     	code for closing connection and resources.
+	 *     
 	 * 15.	As per rules of method overriding in Java, an overridden method can not throw Checked Exception which is higher in hierarchy than 
 	 * 		original method.
 	 *     
