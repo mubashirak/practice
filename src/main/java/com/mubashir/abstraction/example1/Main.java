@@ -11,8 +11,7 @@ public class Main {
 		person.setName("test");
 		
 		System.out.println(person.getName());
-				
-				
+					
 				
 	}
 }
